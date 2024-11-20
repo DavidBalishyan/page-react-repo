@@ -1,0 +1,60 @@
+.bulmalogo {
+    border-radius: 5px;
+  }
+  
+  .navbar {
+    background: #1f2937;
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  
+  
+  .navbar-menu {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    gap: 2rem;
+  }
+  
+  .navbar-item {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+  }
+  
+  
+  .navbar-item:hover {
+    color: #9333ea; 
+    background: rgba(147, 51, 234, 0.1); 
+    border: 2px solid #9333ea;
+  }
+  
+  
+  .navbar-item.active {
+    color: #9333ea;
+    border: 2px solid #9333ea;
+  }
+  
+  
+  body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    overflow-y: scroll;
+    /* scrollbar-width: none;  */
+  }
+  
+  body::-webkit-scrollbar {
+    display: none; 
+  } 

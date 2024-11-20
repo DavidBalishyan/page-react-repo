@@ -1,0 +1,25 @@
+.contact-section {
+    background: linear-gradient(120deg, #1f2937, #3b82f6);
+    color: white;
+    padding: 50px 20px;
+  }
+  
+  .contact-form .label {
+    font-size: 1.2rem;
+  }
+  
+  .contact-form .icon {
+    margin-right: 8px;
+    animation: bounce 2s infinite;
+  }
+  
+  .contact-form .input:hover,
+  .contact-form .textarea:hover {
+    border-color: #9333ea;
+  }
+  
+  @keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-5px); }
+  }
+  
